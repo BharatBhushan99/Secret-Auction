@@ -1,6 +1,9 @@
 from replit import clear
+import graphics
 
 participants = {}
+
+print(graphics.logo)
 
 print("Welcome to the secret auction program.")
 
@@ -21,4 +24,3 @@ while keepLooping:
     clear()
 
 print(f"The winner is {max(participants)} with a bid of ${participants[max(participants)]}")
-    
